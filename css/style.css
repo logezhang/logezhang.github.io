@@ -43,8 +43,9 @@ header {
 
 .titanic {
   font-size: 144px;
+  font-family: "source-han-serif-sc",serif,sans-serif;
+  font-style: normal;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
   opacity: 1;
   position: absolute;
   top: 50%;
@@ -146,8 +147,9 @@ main {
   text-align: left;
   word-break: break-word;
   font-size: 8vw;
-  font-family: "ff-nuvo-sc-web-pro",sans-serif;
-  font-weight: bold;
+  font-family: "chantal",sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: #333;
 }
 
