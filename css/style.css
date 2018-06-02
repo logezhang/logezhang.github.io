@@ -35,7 +35,8 @@ body {
 }
 
 header {
-  background-color: RGB(232,207,127);
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  /* background-color: RGB(232,207,127); */
   height: 100vh;
   position: relative;
 }
@@ -62,7 +63,8 @@ nav {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: RGB(232,207,127);
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  /* background-color: RGB(232,207,127); */
   text-align: center;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -225,7 +227,7 @@ h2 {
 
 footer {
   color: #333;
-  background-color: #fff;
+  background-color: #000;
   display: block;
   position: absolute;
   left: 0;
@@ -263,6 +265,12 @@ footer .contact-link:hover {
 }
 .awesome:hover {
   background-position: 0;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-end;
 }
 
 @media screen and (max-width: 1210px) {
