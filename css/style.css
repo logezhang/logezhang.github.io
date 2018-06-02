@@ -62,7 +62,7 @@ nav {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: #FFF;
+  background-color: RGB(232,207,127);
   text-align: center;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -124,7 +124,7 @@ nav {
   font-size: 46px;
   letter-spacing: 2px;
   display: block;
-  color: #333;
+  color: #fff;
   font-family: "Inconsolata";
   padding: 5px 0;
   margin: 25px 0;
