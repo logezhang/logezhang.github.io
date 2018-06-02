@@ -271,6 +271,7 @@ footer .contact-link:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content:flex-end;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 1210px) {
