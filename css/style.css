@@ -270,12 +270,27 @@ footer .contact-link:hover {
 }
 
 .social {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:flex-end;
-  margin-right: 30px;
-  margin-top: 40px;
+  display: inline-block;
+  margin-right: -4px;   /* solves inline-block dfc]\sw[;'whitespace issue */
+  vertical-align: baseline;
+  top: 5%;
+  right: 5%;
+  position: absolute;
 }
+
+.social {
+  text-align: right;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.social > li > a {
+  position: relative;
+  padding: 15px;
+}
+
 
 @media screen and (max-width: 1210px) {
   .contact-link {
