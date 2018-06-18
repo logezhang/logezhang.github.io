@@ -10936,7 +10936,10 @@ a.text-info:focus {
   color: #00a5bb;
 }
 
-a .material-icons {
+.material-icons {
+  vertical-align: middle;
+}
+img .material-icons {
   vertical-align: middle;
 }
 
@@ -17146,7 +17149,7 @@ footer .pull-center {
 
 .profile-page .page-header {
   height: 380px;
-  background-position: top center;
+  background-position: center center;
 }
 
 .profile-page .profile {
