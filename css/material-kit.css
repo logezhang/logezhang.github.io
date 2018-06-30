@@ -2629,7 +2629,7 @@ select.form-control-lg:not([size]):not([multiple]),
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
-  padding: 0.46875rem 1rem;
+  /* padding: 0.46875rem 1rem; */
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
@@ -8855,8 +8855,7 @@ button:focus {
 
 .btn {
   position: relative;
-  padding: 12px 30px;
-  margin: 0.3125rem 1px;
+/*   margin: 0.3125rem 1px; */
   font-size: .75rem;
   font-weight: 400;
   line-height: 1.428571;
@@ -10946,7 +10945,7 @@ img .material-icons {
 .main {
   background: #FFFFFF;
   position: relative;
-  z-index: 3;
+  z-index: auto;
 }
 
 .form-check,
