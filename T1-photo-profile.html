@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="css/material-kit.css?v=2.0.3" rel="stylesheet" />
+  <link href="css/ekko-lightbox.css" rel="stylesheet" />
 </head>
 
 <body class="profile-page sidebar-collapse">
@@ -267,7 +268,7 @@
                   <img src="Photo/Series/GirlDaydream/cover.jpg" class="rounded">
                   <div class="portfolio-hover">
                     <div class="portfolio-description">
-                      <h4>GirlDaydream</h4>
+                      <h4>Girl Daydream</h4>
                       <div><p>Scholarly interest in creativity involves many definitions and concepts pertaining to a number of disciplines: &#8230;</p>
                       </div>
                     </div>
@@ -278,7 +279,7 @@
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">GirlDaydream</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">Girl Daydream</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -290,44 +291,61 @@
                   </div>
                 </div>
 
-
-
+              <!-- Norway -->
+              <div class="col-md-12 portfolio-item">
+                <div class="thumb" data-toggle="modal" data-target="#GirlDaydream">
+                  <img src="Photo/Series/Norway/cover.jpg" class="rounded">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-description">
+                      <h4>Norway</h4>
+                      <div><p>Scholarly interest in creativity involves many definitions and concepts pertaining to a number of disciplines: &#8230;</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="modal fade style="z-index: auto;background: black"" id="GirlDaydream" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Norway</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                      <div class="modal-body">
+                        dsada
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
             </div>
           </div>
 
           <div class="tab-pane text-center gallery" id="DAILY">
-            <div class="row">
-              <div class="col-md-3 ml-auto col-ms-3 portfolio">
-                <div class="portfolio-item">
-                  <img src="img/T1.png" class="rounded btn" data-toggle="modal" data-target="#exampleModalLong">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-description">
-                      <h4>Elegant Chair</h4>
-                      <div><p>Scholarly interest in creativity involves many definitions and concepts pertaining to a number of disciplines: &#8230;</p></div>
-                    </div>
-                  </div>
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <div class="row">
+                  <a href="Photo/Daily/1L.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-3">
+                      <img src="Photo/Daily/1S.jpg" class="img-fluid rounded ml_auto">
+                  </a>
+                  <a href="Photo/Daily/2L.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-3">
+                      <img src="Photo/Daily/2S.jpg" class="img-fluid rounded">
+                  </a>
+                  <a href="Photo/Daily/1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-3">
+                      <img src="Photo/Daily/1.jpg" class="img-fluid">
+                  </a>
+                  <a href="Photo/Daily/1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-3">
+                      <img src="Photo/Daily/1.jpg" class="img-fluid">
+                  </a>
+                  <a href="Photo/Daily/1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+                      <img src="Photo/Daily/1.jpg" class="img-fluid">
+                  </a>
+                   <a href="Photo/Daily/1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+                      <img src="Photo/Daily/1.jpg" class="img-fluid">
+                  </a>
                 </div>
-
-                  <div class="modal fade style="z-index: auto;background: black"" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLongTitle">Title</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-              </div>
-              <div class="col-md-3 mr-auto">
-
               </div>
             </div>
           </div>
@@ -372,7 +390,7 @@
       </div>
     </div>
   </footer>
- <!--   Core JS Files   -->
+  <!--   Core JS Files   -->
   <script src="js/core/jquery.min.js" type="text/javascript"></script>
   <script src="js/core/popper.min.js" type="text/javascript"></script>
   <script src="js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
@@ -383,6 +401,28 @@
   <script src="js/plugins/nouislider.min.js" type="text/javascript"></script>
   <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
   <script src="js/material-kit.js?v=2.0.3" type="text/javascript"></script>
+  <!--   Lightbox   -->
+  <script src="js/ekko-lightbox.js"></script> 
+  <script type="text/javascript">
+      $(document).ready(function ($) {
+          // delegate calls to data-toggle="lightbox"
+          $(document).on('click', '[data-toggle="lightbox"]:not([data-gallery="navigateTo"]):not([data-gallery="example-gallery-11"])', function(event) {
+              event.preventDefault();
+              return $(this).ekkoLightbox({
+                  onShown: function() {
+                      if (window.console) {
+                          return console.log('Checking our the events huh?');
+                      }
+                  },
+                  onNavigate: function(direction, itemIndex) {
+                      if (window.console) {
+                          return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+                      }
+                  }
+              });
+          });
+      });
+  </script>
 </body>
 
 </html>
