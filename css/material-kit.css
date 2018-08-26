@@ -5803,7 +5803,7 @@ button.close {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 1000px;
     margin: 1.75rem auto;
   }
   .modal-dialog-centered {
@@ -5813,7 +5813,7 @@ button.close {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   }
   .modal-sm {
-    max-width: 300px;
+    max-width: 400px;
   }
 }
 
@@ -17353,6 +17353,11 @@ footer .pull-center {
 .profile-page .gallery img {
   width: 100%;
   margin-bottom: 2.142rem;
+}
+
+.profile-page .gallery .modal-body img {
+  width: 100%;
+  margin-bottom: 0.3rem;
 }
 
 .profile-page .follow .btn-fab {
