@@ -15138,17 +15138,17 @@ h2.title {
 
 .modal-dialog .modal-header {
   border-bottom: none;
-  padding-top: 24px;
+  padding-top: 10px;
   padding-right: 24px;
-  padding-bottom: 0;
+  padding-bottom: 0px;
   padding-left: 24px;
 }
 
 .modal-dialog .modal-body {
-  padding-top: 16px;
-  padding-right: 16px;
-  padding-bottom: 16px;
-  padding-left: 16px;
+  padding-top: 0.1rem;
+  padding-right: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0.1rem;
 }
 
 .modal-dialog .modal-footer {
@@ -17357,7 +17357,7 @@ footer .pull-center {
 
 .profile-page .gallery .modal-body img {
   width: 100%;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.1rem;
 }
 
 .profile-page .follow .btn-fab {
